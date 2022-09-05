@@ -106,3 +106,31 @@ setInterval(() => {
 // Slider responsiveness
 const page = document.documentElement;
 console.log(page.clientWidth);
+
+////////////////////////////
+// Sticky nav
+const aboutUs = document.querySelector('.aboutus');
+const nav = document.querySelector('.nav');
+const header = document.querySelector('.header');
+
+// NEW STICKY NAV
+const obsFunc = function (enteries) {
+  console.log(enteries);
+  const [entry] = enteries;
+
+  if (!entry.isIntersecting) {
+    nav.classList.add('sticky');
+    // nav.classList.add("showNav");
+  } else {
+    nav.classList.remove('sticky');
+    // nav.classList.remove("showNav");
+  }
+};
+
+const headerObserver = new IntersectionObserver(obsFunc, {
+  root: null,
+  threshold: 0,
+  rootMargin: '-90px',
+});
+
+headerObserver.observe(header);

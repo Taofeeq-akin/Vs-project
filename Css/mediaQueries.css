@@ -10,7 +10,8 @@
 /* For smaller Desktop */
 @media (max-width: 82.5em) {
   /* .nav-header {
-    gap: 40rem;
+    gap: 50rem;
+    justify-content: center;
   } */
 
   .slider-info {
@@ -85,8 +86,8 @@
   }
 
   .nav-header {
-    justify-content: center;
-    gap: 25rem;
+    /* justify-content: center; */
+    /* gap: 100rem;  */
   }
 
   .slider-container {
@@ -112,16 +113,8 @@
   /* student */
   .student-text {
     background-color: #fff;
-    /* padding: 3rem 5rem 3rem 8rem; */
-    max-width: 45rem;
-  }
-
-  .inner-slider-container {
-    width: 94%;
-    transform: translateX(2%);
-
-    /* padding: 0 3rem; */
-    /* padding-left: 3.5rem; */
+    padding: 3rem 5rem 3rem 8rem;
+    max-width: 40rem;
   }
 
   /* footer */
@@ -140,7 +133,7 @@
 
   .nav-header {
     /* justify-content: space-between; */
-    gap: 80rem;
+    /* gap: 80rem; */
     /* width: 50rem ; */
     z-index: 3;
   }
@@ -170,17 +163,17 @@
 
   /* ----------------------------------------- */
 
-  .btn-mobile-nav {
+  /* .btn-mobile-nav {
     display: block;
     z-index: 3;
-  }
+  } */
 
   .header {
     position: relative;
     gap: 8rem;
   }
 
-  .mainNav {
+  /* .mainNav {
     background: rgba(102, 153, 168, 0.951);
     position: absolute;
     top: 0;
@@ -197,47 +190,47 @@
     transition: all 0.5s;
     transform: translateX(100%);
     z-index: 1;
-  }
+  } */
 
   .slider-container {
     z-index: 0;
   }
 
-  .mainNavList {
+  /* .mainNavList {
     flex-direction: column;
     align-items: center;
     gap: 4.8rem;
-  }
+  } */
 
-  .mainNavLink:link,
+  /* .mainNavLink:link,
   .mainNavLink:visited {
     font-size: 3rem;
-  }
+  } */
 
-  .nav-open .mainNav {
+  /* .nav-open .mainNav {
     opacity: 100;
     visibility: visible;
     transform: translateX(0);
     pointer-events: auto;
     z-index: 1;
-  }
-
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  } */
+  /* 
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     z-index: 3;
     display: block;
-  }
+  } */
 
   /* .icon-mobile-nav {
     z-index: 21;
   } */
 
-  .logos img {
+  /* .logos img {
     height: 2.4rem;
-  }
+  } */
 
   /* .overview-main {
     column-gap: 2rem;
@@ -284,7 +277,7 @@
     font-size: 48%;
   }
   .nav-header {
-    gap: 70rem;
+    /* gap: 70rem; */
   }
 
   .slider-container {
@@ -331,6 +324,23 @@
   }
 }
 
+@media screen and (max-width: 48em) {
+  html {
+    font-size: 45%;
+  }
+
+  .mainNavLink:link,
+  .mainNavLink:visited {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 44em) {
+  .mainNavList {
+    gap: 5rem;
+  }
+}
+
 /* small tablet */
 @media (max-width: 40em) {
   html {
@@ -359,7 +369,7 @@
   }
 
   .nav-header {
-    gap: 50rem;
+    /* gap: 50rem; */
   }
 
   .courses {
@@ -373,6 +383,68 @@
 }
 
 @media (max-width: 37em) {
+  /* ----------------------------------------- */
+
+  .btn-mobile-nav {
+    display: block;
+    z-index: 3;
+  }
+
+  .mainNav {
+    background: rgba(102, 153, 168, 0.951);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateX(100%);
+    z-index: 1;
+  }
+
+  .mainNavList {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  .mainNavLink:link,
+  .mainNavLink:visited {
+    font-size: 3rem;
+  }
+
+  .nav-open .mainNav {
+    opacity: 100;
+    visibility: visible;
+    transform: translateX(0);
+    pointer-events: auto;
+    z-index: 1;
+  }
+
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    z-index: 3;
+    display: block;
+  }
+
+  .icon-mobile-nav {
+    z-index: 21;
+  }
+
+  .logos img {
+    height: 2.4rem;
+  }
+
   .course-slider {
     /* height: 13rem; */
     width: 13rem;
@@ -479,7 +551,7 @@
 
 @media (max-width: 34em) {
   .nav-header {
-    gap: 40rem;
+    /* gap: 40rem; */
   }
 }
 
