@@ -291,7 +291,7 @@
   font-family: Jost-bold;
   font-size: 1.5rem;
   color: rgb(153, 153, 153);
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   margin-top: 1rem;
 }
 
@@ -443,6 +443,7 @@
 .team-detail {
   padding: 3rem;
 }
+
 .team-img {
   width: 100%;
   background-position: center;
@@ -540,9 +541,10 @@
   font-family: inherit;
   color: #333;
   border-radius: 50%;
-  height: 5.5rem;
-  width: 5.5rem;
-  font-size: 3.25rem;
+  padding: 0.7rem;
+  height: 3rem;
+  width: 3rem;
+  /* font-size: 3.25rem; */
   cursor: pointer;
   display: flex;
   justify-content: center;
