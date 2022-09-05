@@ -104,8 +104,8 @@ setInterval(() => {
 
 ////////////////////////////////////////
 // Slider responsiveness
-const page = document.documentElement;
-console.log(page.clientWidth);
+// const page = document.documentElement;
+// console.log(page.clientWidth);
 
 ////////////////////////////
 // Sticky nav
@@ -114,10 +114,9 @@ const nav = document.querySelector('.nav');
 const header = document.querySelector('.header');
 
 // NEW STICKY NAV
-const obsFunc = function (enteries) {
-  console.log(enteries);
-  const [entry] = enteries;
-
+const obsFunc = function (entries) {
+  const [entry] = entries;
+  console.log(entry);
   if (!entry.isIntersecting) {
     nav.classList.add('sticky');
     // nav.classList.add("showNav");
@@ -130,7 +129,7 @@ const obsFunc = function (enteries) {
 const headerObserver = new IntersectionObserver(obsFunc, {
   root: null,
   threshold: 0,
-  rootMargin: '-90px',
+  rootMargin: `-${nav.clientHeight}px`,
 });
 
 headerObserver.observe(header);
