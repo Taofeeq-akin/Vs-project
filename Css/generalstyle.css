@@ -150,6 +150,7 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 14rem;
   justify-items: center;
+  align-items: center;
 }
 
 /* icons */

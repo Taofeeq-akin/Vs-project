@@ -112,8 +112,16 @@
   /* student */
   .student-text {
     background-color: #fff;
-    padding: 3rem 5rem 3rem 8rem;
-    max-width: 40rem;
+    /* padding: 3rem 5rem 3rem 8rem; */
+    max-width: 45rem;
+  }
+
+  .inner-slider-container {
+    width: 94%;
+    transform: translateX(2%);
+
+    /* padding: 0 3rem; */
+    /* padding-left: 3.5rem; */
   }
 
   /* footer */
@@ -214,11 +222,11 @@
     z-index: 1;
   }
 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
     display: none;
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name='close-outline'] {
     z-index: 3;
     display: block;
   }
