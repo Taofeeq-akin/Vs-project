@@ -3,36 +3,21 @@
   .overview-img-world {
     top: 10rem;
     right: 15rem;
-    /* width: 40rem; */
   }
 }
 
 /* For smaller Desktop */
 @media (max-width: 82.5em) {
-  /* .nav-header {
-    gap: 50rem;
-    justify-content: center;
-  } */
-
   .slider-info {
-    font-family: SegoePrint;
-    font-size: 1.5rem;
-    text-align: center;
-    color: #fff;
-    position: absolute;
     top: -3rem;
-    left: -5rem;
+    left: -7rem;
     width: 17rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
   }
 
   .slider-container {
     max-width: 80%;
-    /* height: 80%; */
   }
+
   .course-slider {
     height: 18rem;
     width: 18rem;
@@ -51,21 +36,11 @@
   html {
     font-size: 56.2%;
   }
-  /* .nav-header {
-    gap: 35rem;
-  } */
 
   .slider-info {
-    text-align: center;
-    color: #fff;
-    position: absolute;
     top: -3rem;
-    left: -8rem;
+    left: -6rem;
     width: 12rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
   }
 
   /* Overview */
@@ -80,19 +55,20 @@
   html {
     font-size: 54%;
   }
+
   .header {
     position: relative;
     gap: 7rem;
   }
 
-  .nav-header {
-    /* justify-content: center; */
-    /* gap: 100rem;  */
+  .slider-info {
+    top: -3rem;
+    left: -12rem;
+    width: 12rem;
   }
 
   .slider-container {
     max-width: 70%;
-    /* height: 80%; */
   }
 
   .course {
@@ -111,10 +87,14 @@
   }
 
   /* student */
+
+  .slider {
+    width: 95%;
+  }
+
   .student-text {
-    background-color: #fff;
-    padding: 3rem 5rem 3rem 8rem;
-    max-width: 40rem;
+    /* padding: 3rem 5rem 3rem 8rem; */
+    max-width: 42rem;
   }
 
   /* footer */
@@ -131,29 +111,14 @@
     font-size: 50%;
   }
 
-  .nav-header {
-    /* justify-content: space-between; */
-    /* gap: 80rem; */
-    /* width: 50rem ; */
-    z-index: 3;
-  }
-
   .slider-container {
     max-width: 50%;
-    /* height: 80%; */
   }
 
   .slider-info {
-    text-align: center;
-    color: #fff;
-    position: absolute;
     top: -3rem;
     left: -25rem;
     /* width: 10rem; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
   }
   .slider-info-img {
     /* display: none; */
@@ -161,84 +126,8 @@
     height: 2rem;
   }
 
-  /* ----------------------------------------- */
-
-  /* .btn-mobile-nav {
-    display: block;
-    z-index: 3;
-  } */
-
-  .header {
-    position: relative;
-    gap: 8rem;
-  }
-
-  /* .mainNav {
-    background: rgba(102, 153, 168, 0.951);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    pointer-events: none;
-    visibility: hidden;
-    transition: all 0.5s;
-    transform: translateX(100%);
-    z-index: 1;
-  } */
-
-  .slider-container {
-    z-index: 0;
-  }
-
-  /* .mainNavList {
-    flex-direction: column;
-    align-items: center;
-    gap: 4.8rem;
-  } */
-
-  /* .mainNavLink:link,
-  .mainNavLink:visited {
-    font-size: 3rem;
-  } */
-
-  /* .nav-open .mainNav {
-    opacity: 100;
-    visibility: visible;
-    transform: translateX(0);
-    pointer-events: auto;
-    z-index: 1;
-  } */
-  /* 
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
-    display: none;
-  }
-
-  .nav-open .icon-mobile-nav[name="close-outline"] {
-    z-index: 3;
-    display: block;
-  } */
-
-  /* .icon-mobile-nav {
-    z-index: 21;
-  } */
-
-  /* .logos img {
-    height: 2.4rem;
-  } */
-
-  /* .overview-main {
-    column-gap: 2rem;
-    padding: 0 0;
-  } */
-
-  .course {
-    max-width: 28rem;
+  .courses {
+    gap: 2.5rem;
   }
 
   /* Overview */
@@ -249,22 +138,16 @@
     width: 30rem;
   }
 
+  .slider {
+    width: 95%;
+  }
+
   /* student */
   .student-text {
-    background-color: #fff;
     padding: 3rem 5rem 3rem 8rem;
-    max-width: 35rem;
+    max-width: 40rem;
   }
 
-  /* grid */
-
-  .grid3 {
-    grid-template-columns: repeat(3, auto);
-  }
-
-  .grid4 {
-    grid-template-columns: repeat(4, auto);
-  }
   .footer-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 8rem;
@@ -276,13 +159,9 @@
   html {
     font-size: 48%;
   }
-  .nav-header {
-    /* gap: 70rem; */
-  }
 
   .slider-container {
     max-width: 35%;
-    /* height: 80%; */
   }
 
   .course-slider {
@@ -304,23 +183,21 @@
     gap: 2rem;
   }
 
-  .course {
-    max-width: 23rem;
+  .course,
+  .team {
+    max-width: 30rem;
   }
 
   /* student */
   .student-text {
-    background-color: #fff;
     padding: 2rem 5rem 2rem 8rem;
     max-width: 30rem;
   }
 
   /* footer */
   .footer-grid {
-    grid-template-columns: auto auto auto auto;
     column-gap: 3rem;
     justify-items: center;
-    padding: 0;
   }
 }
 
@@ -333,11 +210,54 @@
   .mainNavLink:visited {
     font-size: 1.4rem;
   }
+
+  .courses,
+  .teams {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 7rem;
+  }
+
+  .course,
+  .team {
+    max-width: 33rem;
+    width: 100%;
+  }
+
+  .course:last-child,
+  .team:last-child {
+    grid-column: 1/-1;
+  }
+
+  .ourteam-content {
+    align-items: unset;
+  }
 }
 
 @media screen and (max-width: 44em) {
   .mainNavList {
     gap: 5rem;
+  }
+
+  .grid {
+    row-gap: 4.8rem;
+  }
+
+  .address-colum {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: start;
+  }
+
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .courses-colum {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: start;
   }
 }
 
@@ -368,22 +288,27 @@
     margin-bottom: 1rem;
   }
 
-  .nav-header {
-    /* gap: 50rem; */
+  .aboutus {
+    column-gap: 5rem;
+    row-gap: 7rem;
   }
 
-  .courses {
-    /* margin-top: 3rem; */
-    display: flex;
-    gap: 3rem;
+  .hide-aboutus {
+    display: none;
   }
-  .course {
-    max-width: 20rem;
+
+  .show-aboutus {
+    text-align: center;
+    grid-column: 1/-1;
+    display: block;
   }
 }
 
 @media (max-width: 37em) {
   /* ----------------------------------------- */
+  .course-slider {
+    width: 14.5rem;
+  }
 
   .btn-mobile-nav {
     display: block;
@@ -444,11 +369,6 @@
   .logos img {
     height: 2.4rem;
   }
-
-  .course-slider {
-    /* height: 13rem; */
-    width: 13rem;
-  }
 }
 
 /* Mobile */
@@ -456,7 +376,6 @@
   .slider-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* flex-direction: column; */
   }
 
   /* about us */
@@ -473,8 +392,6 @@
 
   /* our courses */
   .course-content {
-    /* display: grid;
-    grid-template-columns: 1fr; */
     padding: 10rem 3.2rem;
     display: flex;
     flex-direction: column;
@@ -522,26 +439,6 @@
     row-gap: 4.8rem;
   }
 
-  .footer-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
-
-  .nav-colum {
-    grid-row: 2;
-    grid-column: span 2;
-    margin-bottom: 3.2rem;
-    justify-self: start;
-  }
-
-  .address-colum,
-  .logo-colum {
-    grid-column: span 2;
-  }
-
-  .logo-colum {
-    grid-row: 1;
-  }
-
   /* Modal */
   .modal {
     max-width: 60rem;
@@ -549,18 +446,8 @@
   }
 }
 
-@media (max-width: 34em) {
-  .nav-header {
-    /* gap: 40rem; */
-  }
-}
-
 /* smaller phones */
 @media (max-width: 28em) {
-  .nav-header {
-    gap: 30rem;
-  }
-
   .icon-mobile-nav {
     height: 3.5rem;
     width: 3.5rem;
@@ -578,10 +465,6 @@
     width: 1.5rem;
   }
 
-  .footer {
-    padding: 8rem;
-  }
-
   /* Modal */
   .modal {
     max-width: 50rem;
@@ -592,35 +475,16 @@
   }
 }
 
-/* xr */
-@media (max-width: 26em) {
-  .nav-header {
-    gap: 37rem;
-  }
-}
-
-/* iphone 12 */
-@media (max-width: 26em) {
-  .nav-header {
-    gap: 34rem;
-  }
-}
-
-/* SE */
 @media (max-width: 24em) {
-  .nav-header {
-    gap: 33rem;
-  }
-
   /* Modal */
   .modal {
     max-width: 45rem;
   }
 }
 
-/* samsung */
-@media (max-width: 23em) {
-  .nav-header {
-    gap: 30rem;
+@media (max-width: 21em) {
+  /* Modal */
+  .modal {
+    max-width: 40rem;
   }
 }
