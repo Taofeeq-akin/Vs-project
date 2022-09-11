@@ -105,7 +105,6 @@ setInterval(() => {
 ////////////////////////////////////////
 // Slider responsiveness
 // const page = document.documentElement;
-// console.log(page.clientWidth);
 
 ////////////////////////////
 // Sticky nav

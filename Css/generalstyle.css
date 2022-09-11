@@ -7,28 +7,28 @@
 /* rubik font */
 @font-face {
   font-family: Rubik-bold;
-  src: url('/fonts/Rubik/static/Rubik-Bold.ttf');
+  src: url('../fonts/Rubik/static/Rubik-Bold.ttf');
 }
 
 @font-face {
   font-family: Rubik-regular;
-  src: url('/fonts/Rubik/static/Rubik-Regular.ttf');
+  src: url('../fonts/Rubik/static/Rubik-Regular.ttf');
 }
 
 @font-face {
   font-family: Rubik-light;
-  src: url('/fonts/Rubik/static/Rubik-Light.ttf');
+  src: url('../fonts/Rubik/static/Rubik-Light.ttf');
 }
 
 @font-face {
   font-family: Rubik-medium;
-  src: url('/fonts/Rubik/static/Rubik-Medium.ttf');
+  src: url('../fonts/Rubik/static/Rubik-Medium.ttf');
 }
 
 /* JOST font*/
 @font-face {
   font-family: Jost-bold;
-  src: url('/fonts/Jost/static/Jost-Bold.ttf');
+  src: url('../fonts/Jost/static/Jost-Bold.ttf');
 }
 
 html {
@@ -160,5 +160,5 @@ body {
 
 /* pattern Background */
 .pattern-img {
-  background: rgb(240, 250, 254) url(/img/images/pattern04.png);
+  background: rgb(240, 250, 254) url(../img/images/pattern04.png);
 }
