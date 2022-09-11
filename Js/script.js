@@ -69,7 +69,7 @@ const maxSlide = slides.length;
 
 const goToSlide = function (slide) {
   slides.forEach(
-    (s, i) => (s.style.transform = `translateX(${119 * (i - slide)}%)`)
+    (s, i) => (s.style.transform = `translateX(${115 * (i - slide)}%)`)
   );
   counter = 0;
 };
@@ -116,7 +116,6 @@ const header = document.querySelector('.header');
 // NEW STICKY NAV
 const obsFunc = function (entries) {
   const [entry] = entries;
-  console.log(entry);
   if (!entry.isIntersecting) {
     nav.classList.add('sticky');
     // nav.classList.add("showNav");
