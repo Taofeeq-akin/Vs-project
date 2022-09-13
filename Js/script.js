@@ -136,5 +136,5 @@ headerObserver.observe(header);
 // Mobile nav button
 const mobileNavBtn = document.querySelector('.btn-mobile-nav')
 mobileNavBtn.addEventListener('click', function (){
-mobileNavBtn.classList.toggle('nav-open')
+nav.classList.toggle('nav-open')
 })
