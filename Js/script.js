@@ -134,3 +134,11 @@ const mobileNavBtn = document.querySelector('.btn-mobile-nav');
 mobileNavBtn.addEventListener('click', function () {
   nav.classList.toggle('nav-open');
 });
+
+////
+// Prevent links default behaviour
+document.querySelectorAll('a').forEach(link =>
+  link.addEventListener('click', function (e) {
+    e.preventDefault();
+  })
+);
