@@ -506,13 +506,18 @@
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
-  border: #7bc6ff dashed 2px;
+  outline: #7bc6ff dashed 2px;
+  outline-offset: 2px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   top: 2.5rem;
   left: -3rem;
+}
+
+.student-img-2 {
+  background-image: url('../img/images/students/bayo.jpeg');
 }
 
 .students-img::after {
