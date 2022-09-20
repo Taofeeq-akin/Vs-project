@@ -185,6 +185,12 @@
   }
 }
 
+@media (max-width: 56em) {
+  .student-text {
+    max-width: 43.1rem;
+  }
+}
+
 @media (max-width: 55em) {
   html {
     font-size: 48%;
@@ -220,14 +226,37 @@
 
   /* student */
   .student-text {
-    padding: 2rem 5rem 2rem 8rem;
-    max-width: 30rem;
+    max-width: 44.1rem;
   }
 
   /* footer */
   .footer-grid {
     column-gap: 3rem;
     justify-items: center;
+  }
+}
+
+@media screen and (max-width: 53em) {
+  .student-text {
+    max-width: 43rem;
+  }
+}
+
+@media screen and (max-width: 51.7em) {
+  .student-text {
+    max-width: 42rem;
+  }
+}
+
+@media screen and (max-width: 50.8em) {
+  .student-text {
+    max-width: 40.7rem;
+  }
+}
+
+@media screen and (max-width: 49.5em) {
+  .student-text {
+    max-width: 39.4rem;
   }
 }
 
