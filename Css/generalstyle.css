@@ -127,10 +127,6 @@ body {
   display: grid;
 }
 
-.grid:not(:last-child) {
-  /* margin-bottom: 9.6rem; */
-}
-
 .grid2 {
   grid-template-columns: repeat(2, 1fr);
   /* gap: 2rem; */

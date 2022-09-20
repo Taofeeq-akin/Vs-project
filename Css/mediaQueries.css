@@ -263,6 +263,10 @@
     font-size: 45%;
   }
 
+  .mainNavList {
+    /* gap: 2rem; */
+  }
+
   .heading-primary {
     font-family: Jost-bold;
     font-size: 4rem;
