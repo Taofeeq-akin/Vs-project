@@ -62,16 +62,15 @@
 
 /* banner */
 .banner-img {
-  background-image: linear-gradient(
+  background: linear-gradient(
       to right bottom,
       #73969d8c,
       rgba(28, 55, 91, 0.625)
     ),
-    url(../img/banner-img/programming-2022-02-07-11-35-59-utc.jpg);
+    url(../img/banner-img/programming-2022-02-07-11-35-59-utc.jpg) center
+      center/cover no-repeat;
   width: 100vw;
   height: 100vh;
-  background-position: center;
-  background-size: cover;
 }
 
 /* link-btn style */
