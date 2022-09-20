@@ -292,6 +292,28 @@
   .ourteam-content {
     align-items: unset;
   }
+
+  .student-text {
+    max-width: 41rem;
+  }
+}
+
+@media screen and (max-width: 46.5em) {
+  .student-text {
+    max-width: 40rem;
+  }
+}
+
+@media screen and (max-width: 45.8em) {
+  .student-text {
+    max-width: 39rem;
+  }
+}
+
+@media screen and (max-width: 44.5em) {
+  .student-text {
+    max-width: 37.5rem;
+  }
 }
 
 @media screen and (max-width: 44em) {
@@ -313,6 +335,12 @@
     grid-column: 2/3;
     grid-row: 1/2;
     justify-self: start;
+  }
+}
+
+@media screen and (max-width: 43em) {
+  .student-text {
+    max-width: 36rem;
   }
 }
 

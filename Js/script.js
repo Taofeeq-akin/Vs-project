@@ -57,10 +57,7 @@ document.querySelectorAll('.smooth').forEach(link =>
 );
 
 ////////////////////////////////////////
-// Slider component + Slider Responsiveness
-
-const page = document.documentElement;
-console.log(page.clientWidth);
+// Slider component
 
 const slides = document.querySelectorAll('.slide');
 const btnRight = document.querySelector('.slider-btn--right');
