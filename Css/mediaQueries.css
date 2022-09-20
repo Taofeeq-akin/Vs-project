@@ -1,11 +1,3 @@
-@media (max-width: 118rem) {
-  /* Overview */
-  .overview-img-world {
-    top: 10rem;
-    right: 15rem;
-  }
-}
-
 /* For smaller Desktop */
 @media (max-width: 82.5em) {
   .slider-info {
@@ -22,13 +14,6 @@
     height: 18rem;
     width: 18rem;
   }
-
-  /* Overview */
-  .overview-img-world {
-    top: 10rem;
-    right: 20rem;
-    width: 60rem;
-  }
 }
 
 /* LandScape Tablet */
@@ -41,13 +26,6 @@
     top: -3rem;
     left: -6rem;
     width: 12rem;
-  }
-
-  /* Overview */
-  .overview-img-world {
-    top: 10rem;
-    right: 30rem;
-    width: 50rem;
   }
 }
 
@@ -73,17 +51,6 @@
 
   .course {
     max-width: 33rem;
-  }
-
-  /* Overview */
-  .overview-main {
-    column-gap: 5rem;
-  }
-
-  .overview-img-world {
-    top: 10rem;
-    right: 20rem;
-    width: 50rem;
   }
 
   /* footer */
@@ -133,14 +100,6 @@
 
   .courses {
     gap: 2.5rem;
-  }
-
-  /* Overview */
-  .overview-main {
-    column-gap: 5rem;
-  }
-  .overview-img {
-    width: 30rem;
   }
 
   .student-text {
@@ -496,23 +455,6 @@
   .course-text {
     /* width: 60rem; */
     text-align: center;
-  }
-
-  /* Overview */
-  .overview-main {
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .overview-img {
-    justify-self: center;
-  }
-
-  .overview-img-world {
-    top: 50rem;
-    right: 15rem;
-    /* width: 40rem; */
   }
 
   /* grid */
