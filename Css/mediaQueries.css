@@ -125,10 +125,8 @@
   .slider-info {
     top: -3rem;
     left: -25rem;
-    /* width: 10rem; */
   }
   .slider-info-img {
-    /* display: none; */
     width: 2rem;
     height: 2rem;
   }
@@ -219,6 +217,7 @@
   }
 }
 
+/* Student styles */
 @media screen and (max-width: 53em) {
   .student-text {
     max-width: 43rem;
