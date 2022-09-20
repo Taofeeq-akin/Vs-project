@@ -132,3 +132,10 @@ const headerObserver = new IntersectionObserver(obsFunc, {
 });
 
 headerObserver.observe(header);
+
+//////////
+// Mobile nav button
+const mobileNavBtn = document.querySelector('.btn-mobile-nav')
+mobileNavBtn.addEventListener('click', function (){
+nav.classList.toggle('nav-open')
+})
