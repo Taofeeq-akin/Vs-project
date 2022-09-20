@@ -11,9 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
 }
 
 .nav-logo {
