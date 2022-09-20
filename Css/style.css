@@ -517,7 +517,8 @@
 }
 
 .student-img-2 {
-  background-image: url('../img/images/students/qoyyum.jpeg');
+  background: url('../img/images/students/qoyyum.jpeg') center center/cover
+    no-repeat;
 }
 
 .students-img::after {
