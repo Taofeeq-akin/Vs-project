@@ -98,8 +98,9 @@ setInterval(() => {
 }, 1000);
 
 setInterval(() => {
-  if (counter === 5) nextSlide();
-  else counter = 0;
+  // review
+  // if (counter === 5) nextSlide();
+  // else counter = 0;
 }, 5000);
 
 ////////////////////////////////////////

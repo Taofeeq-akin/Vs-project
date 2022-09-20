@@ -94,7 +94,7 @@
 
   .student-text {
     /* padding: 3rem 5rem 3rem 8rem; */
-    max-width: 42rem;
+    /* max-width: 42rem; */
   }
 
   /* footer */
@@ -236,10 +236,6 @@
 }
 
 @media screen and (max-width: 44em) {
-  .mainNavList {
-    gap: 5rem;
-  }
-
   .grid {
     row-gap: 4.8rem;
   }
