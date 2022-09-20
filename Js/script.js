@@ -98,13 +98,10 @@ setInterval(() => {
 }, 1000);
 
 setInterval(() => {
-  if (counter === 5) nextSlide();
-  else counter = 0;
+  // review
+  // if (counter === 5) nextSlide();
+  // else counter = 0;
 }, 5000);
-
-////////////////////////////////////////
-// Slider responsiveness
-// const page = document.documentElement;
 
 ////////////////////////////
 // Sticky nav
@@ -117,10 +114,8 @@ const obsFunc = function (entries) {
   const [entry] = entries;
   if (!entry.isIntersecting) {
     nav.classList.add('sticky');
-    // nav.classList.add("showNav");
   } else {
     nav.classList.remove('sticky');
-    // nav.classList.remove("showNav");
   }
 };
 
@@ -134,7 +129,7 @@ headerObserver.observe(header);
 
 //////////
 // Mobile nav button
-const mobileNavBtn = document.querySelector('.btn-mobile-nav')
-mobileNavBtn.addEventListener('click', function (){
-nav.classList.toggle('nav-open')
-})
+const mobileNavBtn = document.querySelector('.btn-mobile-nav');
+mobileNavBtn.addEventListener('click', function () {
+  nav.classList.toggle('nav-open');
+});

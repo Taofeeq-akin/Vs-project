@@ -11,9 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  padding: 1.5rem 0;
+  padding: 1.2rem 0;
 }
 
 .nav-logo {
@@ -36,6 +34,7 @@
   transition: all 0.3s;
   list-style: none;
 }
+
 .mainNavLink:hover,
 .mainNavLink:active {
   color: #7bc6ff;
@@ -49,10 +48,6 @@
   position: fixed;
   top: 0;
   background-color: #fcfcfc;
-}
-
-.sticky .showNav {
-  transform: translateY(1rem);
 }
 
 .sticky .mainNavLink:link,
@@ -150,6 +145,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .slider-info {
   font-family: SegoePrint;
   font-size: 1.5rem;
@@ -172,6 +168,7 @@
   transform: rotateX(180deg);
   transform: rotateY(180deg);
 }
+
 .course-slider {
   display: flex;
   flex-direction: column;
@@ -315,14 +312,16 @@
   width: 100%;
   background-color: #fff;
 }
+
 .course-img {
   width: 100%;
 }
+
 .course-teacher {
   font-family: Jost-bold;
   font-size: 1.5rem;
   color: rgb(153, 153, 153);
-  /* margin-bottom: 2rem; */
+  margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
@@ -498,7 +497,7 @@
 }
 .student-text {
   background-color: #fff;
-  padding: 3rem 5rem 3rem 8rem;
+  padding: 3rem 5rem 5rem 8rem;
   max-width: 50rem;
   padding-bottom: 100% !important;
 }
@@ -789,6 +788,7 @@ footer {
   font-size: 1.6rem;
   color: #767676;
   transition: all 0.3s;
+  /* display: inline-block !important; */
 }
 
 .footer-link:hover,

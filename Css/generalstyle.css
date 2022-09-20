@@ -127,10 +127,6 @@ body {
   display: grid;
 }
 
-.grid:not(:last-child) {
-  /* margin-bottom: 9.6rem; */
-}
-
 .grid2 {
   grid-template-columns: repeat(2, 1fr);
   /* gap: 2rem; */
@@ -146,7 +142,7 @@ body {
 } */
 
 .footer-grid {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr 1fr 1fr;
   column-gap: 14rem;
   justify-items: center;
   align-items: center;
