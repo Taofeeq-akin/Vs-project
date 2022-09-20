@@ -86,17 +86,6 @@
     width: 50rem;
   }
 
-  /* student */
-
-  .slider {
-    /* width: 95%; */
-  }
-
-  .student-text {
-    /* padding: 3rem 5rem 3rem 8rem; */
-    /* max-width: 42rem; */
-  }
-
   /* footer */
   .footer-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -156,13 +145,7 @@
     width: 30rem;
   }
 
-  /* student */
-  .slider {
-    /* width: 95%; */
-  }
-
   .student-text {
-    /* padding: 3rem 5rem 3rem 8rem; */
     max-width: 48rem;
   }
 
@@ -346,7 +329,7 @@
 
 @media screen and (max-width: 42.2em) {
   .slider {
-    max-width: 412px;
+    max-width: 60rem;
   }
 
   .slider-btn--left {
@@ -552,10 +535,6 @@
 }
 
 @media screen and (max-width: 32.5em) {
-  .slider {
-    max-width: 412px;
-  }
-
   .slider-btn--left {
     left: 0;
   }
