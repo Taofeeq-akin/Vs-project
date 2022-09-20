@@ -580,9 +580,31 @@
   }
 }
 
+@media (max-width: 23.5em) {
+  .slider {
+    height: 22rem;
+  }
+}
+
 @media (max-width: 21em) {
   /* Modal */
   .modal {
     max-width: 40rem;
+  }
+
+  .slider {
+    height: 27rem;
+  }
+}
+
+@media (max-width: 19.4em) {
+  .slider {
+    height: 31rem;
+  }
+}
+
+@media (max-width: 18em) {
+  .slider {
+    height: 33rem;
   }
 }
