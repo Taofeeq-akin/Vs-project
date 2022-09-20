@@ -794,6 +794,7 @@ footer {
   font-size: 1.6rem;
   color: #767676;
   transition: all 0.3s;
+  /* display: inline-block !important; */
 }
 
 .footer-link:hover,
