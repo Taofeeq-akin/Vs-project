@@ -446,23 +446,30 @@
   max-width: 50rem;
   padding-bottom: 100% !important;
 }
+
 .students-img {
-  background-image: url(../img/images/img11.jpg);
   width: 10rem;
   height: 10rem;
   border-radius: 50%;
   outline: #7bc6ff dashed 2px;
   outline-offset: 2px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   position: absolute;
   top: 2.5rem;
   left: -3rem;
 }
 
+.student-img-1 {
+  background: url('../img/images/students/taofeek.jpeg') center center/cover
+    no-repeat;
+}
+
 .student-img-2 {
   background: url('../img/images/students/qoyyum.jpeg') center center/cover
+    no-repeat;
+}
+
+.student-img-3 {
+  background: url('../img/images/students/ibrahim.jpeg') center center/cover
     no-repeat;
 }
 
