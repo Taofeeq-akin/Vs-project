@@ -344,6 +344,24 @@
   }
 }
 
+@media screen and (max-width: 42.2em) {
+  .slider {
+    max-width: 412px;
+  }
+
+  .slider-btn--left {
+    left: -3rem;
+  }
+
+  .slider-btn--right {
+    right: -3rem;
+  }
+
+  .student-text {
+    max-width: 100%;
+  }
+}
+
 /* small tablet */
 @media (max-width: 40em) {
   html {
@@ -530,6 +548,20 @@
   .modal {
     max-width: 60rem;
     padding: 4rem 2rem;
+  }
+}
+
+@media screen and (max-width: 32.5em) {
+  .slider {
+    max-width: 412px;
+  }
+
+  .slider-btn--left {
+    left: 0;
+  }
+
+  .slider-btn--right {
+    right: 0;
   }
 }
 
