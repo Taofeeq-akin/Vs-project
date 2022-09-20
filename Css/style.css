@@ -388,62 +388,6 @@
   color: #7bc6ff;
 }
 
-/* Overview */
-.overview {
-  color: #fff;
-  background: linear-gradient(#7bc6ff, rgba(16, 63, 125, 0.825));
-  position: relative;
-  padding: 6rem 0;
-}
-
-.overview-main {
-  column-gap: 8rem;
-  align-items: center;
-}
-
-.overview-img {
-  background-blend-mode: multiply;
-  background-size: cover;
-  background-image: linear-gradient(to right bottom, #4e75eb5a, #22bce68a),
-    url(../img/images/img06.jpg);
-  width: 40rem;
-  height: 30rem;
-  background-position: left;
-  border-radius: 5px;
-}
-
-.overview-img::after {
-  content: url(../img/arrowplay.png);
-  background-color: #fff;
-  padding: 2rem 2rem;
-  border-radius: 50%;
-}
-
-.overview-img-world {
-  opacity: 0.3;
-  position: absolute;
-  top: 10rem;
-  right: 40rem;
-  width: 70rem;
-}
-
-.overview-content {
-  z-index: 1;
-}
-
-.overview-head {
-  font-family: Rubik-bold;
-  font-size: 5rem;
-  margin-bottom: 2rem;
-  color: rgb(203, 66, 66);
-}
-
-.overview-subhead {
-  font-family: Rubik-medium;
-  font-size: 2rem;
-  margin-bottom: 2rem;
-}
-
 /* our teams */
 .ourteam-content {
   display: flex;
