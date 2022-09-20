@@ -119,7 +119,7 @@
 
 @media (max-width: 63em) {
   .student-text {
-    max-width: 45.2rem;
+    max-width: 45.3rem;
   }
 }
 
@@ -156,20 +156,32 @@
     width: 30rem;
   }
 
+  /* student */
   .slider {
-    width: 95%;
+    /* width: 95%; */
   }
 
-  /* student */
   .student-text {
-    padding: 3rem 5rem 3rem 8rem;
-    max-width: 40rem;
+    /* padding: 3rem 5rem 3rem 8rem; */
+    max-width: 48rem;
   }
 
   .footer-grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 8rem;
     justify-items: center;
+  }
+}
+
+@media (max-width: 59em) {
+  .student-text {
+    max-width: 46.5rem;
+  }
+}
+
+@media (max-width: 57em) {
+  .student-text {
+    max-width: 45rem;
   }
 }
 
