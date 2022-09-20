@@ -59,13 +59,15 @@ document.querySelectorAll('.smooth').forEach(link =>
 ////////////////////////////////////////
 // Slider component
 
+const pageWidth = document.documentElement.clientWidth;
+
 const slides = document.querySelectorAll('.slide');
 const btnRight = document.querySelector('.slider-btn--right');
 const btnLeft = document.querySelector('.slider-btn--left');
 
 let counter = 0;
 let currentSlide = 0;
-const maxSlide = slides.length;
+const maxSlide = pageWidth > 674 ? slides.length : slides.length + 1;
 
 const goToSlide = function (slide) {
   slides.forEach(
