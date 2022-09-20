@@ -50,10 +50,6 @@
   background-color: #fcfcfc;
 }
 
-.sticky .showNav {
-  transform: translateY(1rem);
-}
-
 .sticky .mainNavLink:link,
 .sticky .mainNavLink:visited {
   color: #333;

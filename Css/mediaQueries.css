@@ -89,7 +89,7 @@
   /* student */
 
   .slider {
-    width: 95%;
+    /* width: 95%; */
   }
 
   .student-text {
@@ -102,6 +102,24 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 10rem;
     justify-items: center;
+  }
+}
+
+@media (max-width: 67em) {
+  .student-text {
+    max-width: 48.5rem;
+  }
+}
+
+@media (max-width: 65em) {
+  .student-text {
+    max-width: 47rem;
+  }
+}
+
+@media (max-width: 63em) {
+  .student-text {
+    max-width: 45.2rem;
   }
 }
 

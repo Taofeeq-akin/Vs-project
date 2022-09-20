@@ -57,7 +57,10 @@ document.querySelectorAll('.smooth').forEach(link =>
 );
 
 ////////////////////////////////////////
-// Slider component
+// Slider component + Slider Responsiveness
+
+const page = document.documentElement;
+console.log(page.clientWidth);
 
 const slides = document.querySelectorAll('.slide');
 const btnRight = document.querySelector('.slider-btn--right');
@@ -103,10 +106,6 @@ setInterval(() => {
   // else counter = 0;
 }, 5000);
 
-////////////////////////////////////////
-// Slider responsiveness
-// const page = document.documentElement;
-
 ////////////////////////////
 // Sticky nav
 const aboutUs = document.querySelector('.aboutus');
@@ -118,10 +117,8 @@ const obsFunc = function (entries) {
   const [entry] = entries;
   if (!entry.isIntersecting) {
     nav.classList.add('sticky');
-    // nav.classList.add("showNav");
   } else {
     nav.classList.remove('sticky');
-    // nav.classList.remove("showNav");
   }
 };
 
@@ -135,7 +132,7 @@ headerObserver.observe(header);
 
 //////////
 // Mobile nav button
-const mobileNavBtn = document.querySelector('.btn-mobile-nav')
-mobileNavBtn.addEventListener('click', function (){
-nav.classList.toggle('nav-open')
-})
+const mobileNavBtn = document.querySelector('.btn-mobile-nav');
+mobileNavBtn.addEventListener('click', function () {
+  nav.classList.toggle('nav-open');
+});
