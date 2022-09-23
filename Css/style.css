@@ -114,7 +114,6 @@
   max-width: 100rem;
   margin-top: 17rem;
   text-align: center;
-  /* margin-bottom: 15rem; */
 }
 .header-body h4 {
   font-family: Jost-bold;
@@ -161,7 +160,6 @@
 }
 
 .slider-info-img {
-  /* display: none; */
   height: 5rem;
   width: 5rem;
   transform: rotateX(180deg);
@@ -226,10 +224,6 @@
   top: 1rem;
   right: 1rem;
 }
-
-/* ---------------------------- */
-/* main */
-/* ---------------------------- */
 
 /* about us */
 .aboutus {
@@ -345,7 +339,6 @@
   align-items: center;
 }
 
-/* //// */
 /* Course section */
 .course {
   display: grid;
@@ -353,17 +346,15 @@
 }
 
 .course-img {
-  /* height: 100%; */
   align-self: stretch;
   object-fit: cover;
 }
 
 .course-detail-container {
-  /* height: 100%; */
   align-self: stretch;
 }
 
-.course-detail{
+.course-detail {
   height: 100%;
 }
 
@@ -490,7 +481,6 @@
   text-align: center;
 }
 
-/* //////////////////////////////////// */
 /* Slider component */
 
 /* SLIDER */
@@ -569,7 +559,6 @@
   align-items: center;
   max-width: 100rem;
   text-align: center;
-  /* margin-bottom: 15rem; */
   position: relative;
 }
 .small-banner-text h4 {
@@ -619,12 +608,10 @@
 
 /* ---------------- */
 /* Contact section */
-/* ---------------- */
 .contact-section {
   padding: 7rem 0;
 }
 
-/* Test case */
 .contact-text {
   margin-bottom: 4rem;
   color: #1d1d1d;
@@ -654,7 +641,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%; /*---*/
+  width: 100%;
   max-width: 70rem;
   background-color: #f3f3f3;
   padding: 4rem;
@@ -738,7 +725,6 @@ form * {
 
 /* ---------- */
 /* footer */
-/* ---------- */
 footer {
   padding: 12.8rem 0;
   border-top: 1px solid #eee;
@@ -750,7 +736,6 @@ footer {
   font-size: 1.6rem;
   color: #767676;
   transition: all 0.3s;
-  /* display: inline-block !important; */
 }
 
 .footer-link:hover,
