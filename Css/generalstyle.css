@@ -7,28 +7,28 @@
 /* rubik font */
 @font-face {
   font-family: Rubik-bold;
-  src: url('../fonts/Rubik/static/Rubik-Bold.ttf');
+  src: url('../fonts/Rubik/Rubik-Bold.ttf');
 }
 
 @font-face {
   font-family: Rubik-regular;
-  src: url('../fonts/Rubik/static/Rubik-Regular.ttf');
+  src: url('../fonts/Rubik/Rubik-Regular.ttf');
 }
 
 @font-face {
   font-family: Rubik-light;
-  src: url('../fonts/Rubik/static/Rubik-Light.ttf');
+  src: url('../fonts/Rubik/Rubik-Light.ttf');
 }
 
 @font-face {
   font-family: Rubik-medium;
-  src: url('../fonts/Rubik/static/Rubik-Medium.ttf');
+  src: url('../fonts/Rubik/Rubik-Medium.ttf');
 }
 
 /* JOST font*/
 @font-face {
   font-family: Jost-bold;
-  src: url('../fonts/Jost/static/Jost-Bold.ttf');
+  src: url('../fonts/Jost/Jost-Bold.ttf');
 }
 
 html {
@@ -50,12 +50,7 @@ body {
   padding: 0 3.2rem;
 }
 
-/* font types */
 .heading-primary {
-  /* font-family: Jost-bold;
-  font-size: 5.5rem;
-  padding-bottom: 2rem; */
-
   font-family: Jost-bold;
   color: #fff;
   font-size: 5.5rem;
@@ -87,7 +82,6 @@ body {
   font-family: Rubik-light;
   font-size: 1.8rem;
   line-height: 1.5;
-  /* margin-bottom: 2rem; */
 }
 .body-text-italics {
   font-size: 1.5rem;
@@ -122,24 +116,16 @@ body {
 
 /* ------------------ */
 /* grids */
-/* ------------------ */
 .grid {
   display: grid;
 }
 
 .grid2 {
   grid-template-columns: repeat(2, 1fr);
-  /* gap: 2rem; */
 }
 .grid3 {
   grid-template-columns: repeat(3, 1fr);
 }
-.grid4 {
-  grid-template-columns: repeat(4, 1fr);
-}
-/* .grid5 {
-  grid-template-columns: repeat(5, 1fr);
-} */
 
 .footer-grid {
   grid-template-columns: 1fr 1.2fr 1fr 1fr;

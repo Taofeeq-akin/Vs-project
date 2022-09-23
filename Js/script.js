@@ -45,6 +45,7 @@ document.querySelector('.mainNavList').addEventListener('click', function (e) {
   if (e.target.classList.contains('mainNavLink')) {
     const id = e.target.getAttribute('href');
     document.querySelector(id).scrollIntoView({ behavior: 'smooth' });
+    nav.classList.toggle('nav-open');
   }
 });
 
